@@ -1,0 +1,26 @@
+{
+  "name": "youtube_downloader",
+  "version": "1.0.0",
+  "description": "this is project on node js and javascript for make down-loader  of  Youtube video it is simple API for that",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshjangid/node_js_youtube_downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganeshjangid/node_js_youtube_downloader/issues"
+  },
+  "homepage": "https://github.com/ganeshjangid/node_js_youtube_downloader#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "ytdl-core": "1.0.0"
+  }
+}
